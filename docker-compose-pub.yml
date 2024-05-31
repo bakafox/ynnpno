@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  BITSET_DOCKER_SERVICE:
+    build:
+      context: .
+    command: ./bitset_example
+    volumes:
+      - BITSET_DOCKER_VOLUME:/app
+volumes:
+  BITSET_DOCKER_VOLUME:

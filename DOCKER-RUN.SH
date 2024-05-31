@@ -1,0 +1,1 @@
+docker build -t docker_bitset . && docker run docker_bitset
