@@ -1,6 +1,6 @@
-![Результат работы локального образа (ничем не отличается от образа с docker-hub)](https://raw.githubusercontent.com/bakafox/ynnpno/task2/output-docker.png)
+![Слева — локально запущенный образ; Справа — образ с docker-hub.](README-IMG.png)
 
-*Результат работы локального образа (ничем не отличается от образа с docker-hub)*
+*Результаты работы локального образа и образа с docker-hub, соответственно.*
 
 ### Как собрать и запустить в контейнере локальный образ в docker?
 
@@ -12,7 +12,7 @@
 1. Создаём учётку на [Docker Hub](https://hub.docker.com)
 2. Пишем `docker login`, логинимся
 3. Собираем образ: `docker build -t bakafox/bitset .`
-4. Пушим образ на Dockerhub (если не пушится, значит, VPN хреновый): `docker push bakafox/bitset`
+4. Пушим образ на Dockerhub: `docker push bakafox/bitset`
 
 ### Как загрузить образ с docker-hub?
 
